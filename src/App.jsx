@@ -45,7 +45,7 @@ export default function App() {
   const [artist, setArtist] = useState("All");
   const [genre, setGenre] = useState("All");
 
-  const API_URL = "/api/ochoa/songs";
+  const API_URL = "https://song-api-xh1q.onrender.com/ochoa/songs";
 
   useEffect(() => {
     fetchSongs();
